@@ -18,20 +18,16 @@ body{
     text-align: right;
   }
   .conteiner{
-    display: flex;
-
+    display:flex;
+    justify-content: space-between;
+    
   }
   
   .header li {
     list-style: none;
     display: inline-block;
+    text-decoration: underline;
   }
  
-  .header .box{
-    display: inline-block;
-   
-  }
 
-  #spacebetween{
-    justify-content: space-between;
-  }
+

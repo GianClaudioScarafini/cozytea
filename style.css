@@ -37,25 +37,35 @@ div.container{
     width: 100%;
     display: flex;
     align-items: center;
+    opacity: 0.9;
+
 }
 
 /*locations*/
 
-.locations{
+.background{
     display: flex;
+    height: 500px;
+    justify-items: center; 
+
+}
+
+.background{
     background-image: url("resources/img-locations-background.jpg");
     background-position: center;
     background-size: cover;
-    height: 500px; 
-
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.box{
+.boxlocations{
     height: 300px;
     width: 300px;
     background-color: black;
     opacity: 1;
     display: flex;
     margin: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }

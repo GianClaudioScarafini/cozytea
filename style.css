@@ -7,27 +7,55 @@ body{
 }
 
 /*header*/
-
-.header {
-    padding: 30px 0px 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-  
-  }
-  ul {
-    text-align: right;
-  }
-  .conteiner{
-    display:flex;
+div.container{
+    margin: 20px;
+    display: flex;
     justify-content: space-between;
-    
-  }
-  
-  .header li {
+}
+.header li{
     list-style: none;
-    display: inline-block;
+    display: inline;
     text-decoration: underline;
-  }
- 
+}
 
 
+/*jumbotron*/
+.jumbotron{
+    display: flex;
+    flex-direction: column;
+    background-image: url("resources/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    justify-content:space-around;
+}
+.content{
+    background-color: black;
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*locations*/
+
+.locations{
+    display: flex;
+    background-image: url("resources/img-locations-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px; 
+
+    justify-content: space-around;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    margin: 40px;
+}
